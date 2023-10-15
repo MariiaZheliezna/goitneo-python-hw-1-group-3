@@ -55,9 +55,6 @@ def get_birthdays_per_week(users):
         if workdays[week_day_name]:
             birthday_selebrate_str = ", ".join(workdays[week_day_name])
             print(f"{week_day_name:<10} : {birthday_selebrate_str}")
-
-    
-
-get_birthdays_per_week(users)
+            
 
 
